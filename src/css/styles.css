@@ -1,0 +1,24 @@
+.Banner{
+    background-image: url("/src/img/WeBuilder\ Banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-shrink: 0;
+    width: 1872px;
+    height: 300px;
+    background-position-x: -150px;   
+}
+
+.Banner h2{
+    font-size: 28px;
+    position: relative;
+    left: 40%;
+    top: 15%;
+}
+
+.Banner h1{
+    font-size: 80px;
+    position: relative;
+    left:42%;
+    top:20%;
+    
+}
