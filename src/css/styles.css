@@ -1,0 +1,243 @@
+@font-face {
+    font-family: PlaypenSan-XBold;
+    src: url(/src/Fonts/PlaypenSans-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: PlaypenSan-Light;
+    src: url(/src/Fonts/PlaypenSans-Light.ttf)
+}
+
+@font-face {
+    font-family: PlaypenSan-XLight;
+    src: url(/src/Fonts/PlaypenSans-ExtraLight.ttf);
+}
+
+
+.Banner{
+    background-image: url("/src/img/WeBuilder\ Banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-shrink: 0;
+    /* width: 1872px;*/
+    height: 300px;
+    background-position-x: -150px;   
+}
+
+.Banner h2{
+    font-size: 28px;
+    position: relative;
+    left: 38%;
+    top: 15%;
+    width: fit-content;
+    font-family: PlaypenSan-light;
+}
+
+.Banner h1{
+    font-size: 80px;
+    position: relative;
+    left:40%;
+    top:10%;
+    width: fit-content;
+    font-family: PlaypenSan-Xbold;
+    
+}
+
+.navMenu{
+    background: var(--WeBuilder, linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(270deg, rgba(253, 0, 158, 0.59) 0%, rgba(235, 95, 182, 0.56) 38.4%, rgba(122, 109, 241, 0.65) 61.81%, #5370FF 100%));
+    height: 40px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+
+.navList{
+    padding-top:10px;
+}
+
+.navItem{
+    display: inline;
+    position: relative;
+    left:75%;
+    font-size: 15px;
+    font-family: PlaypenSan-XLight;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.navItem:hover, .footlist a:hover{
+    text-decoration: underline;
+}
+
+.navItem:active, .footlist a:active{
+    color: #7A6DF180;
+    text-decoration: none;
+}
+
+.Location{
+    width: 346px;
+    height: 59px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: rgba(122, 109, 241, 0.50);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    position: relative;
+    top:50px;
+    left: 43%;
+}
+
+.Location h3{
+    font-family: PlaypenSan-light;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    font-size: 25px;
+    color:#3d3678;
+}
+
+.accountOverview{
+    padding-bottom: 50px;
+    width: auto;
+    background: rgba(122, 109, 241, 0.50);
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 50px;
+    position: relative;
+    top:100px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+
+.accountOverview h4{
+    font-family:PlaypenSan-Xbold ;
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+    left: 25px;
+    color:#3d3678;
+}
+
+.AOBody{
+    background-color: #D9D9D9;
+    margin-top: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.AOBody p{
+    padding-top: 5px;
+    padding-left: 25px;
+    font-family:PlaypenSan-Xbold ;
+    width: auto;
+    height: 80px;
+
+}
+
+.AOData{
+    display: inline-block;
+    width: 200px;
+    position: relative;
+    left: 30%;
+    bottom: 30px;
+    
+    
+}
+
+table{
+    border-spacing: 10px 0px;
+    
+}
+
+td{
+    font-family:PlaypenSan-light;
+    font-size: 15px;
+    font-weight:bold ;
+    padding-left: 5px;
+}
+
+.Websites{
+    display: inline-block;
+    background-color: #D9D9D9;
+    width: 300px;
+    height: 300px;
+    margin-top: 250px;
+    border-radius: 10px;
+}
+
+.accountOverview ~ .Websites{
+    position: relative;
+    left: 40px;
+}
+
+.Websites ~ .Websites{
+    margin-left: 190px;
+}
+
+.Websites h2{
+    font-family:PlaypenSan-Xbold ;
+    color:#3d3678;
+    background: rgba(122, 109, 241, 0.50);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    position: relative;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    margin-top: 5px;
+    padding: 10px 10px;
+    margin-left: 15%;
+}
+
+
+.manage{
+    width: 300px;
+    height: 46px;
+    background-color:rgba(122, 109, 241, 0.50);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+button{
+    
+    color:#3d3678;
+    padding: 5px;
+    border-radius: 10px;
+    font-family:PlaypenSan-Xbold ;
+    
+    margin-left: 25px;
+    
+}
+button:hover{
+    text-decoration: underline;
+}
+
+Button:active{
+    color: #D9D9D9;
+    text-decoration: none;
+}
+
+
+footer{
+    margin-top: 100px;
+    background: var(--WeBuilder, linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(270deg, rgba(253, 0, 158, 0.59) 0%, rgba(235, 95, 182, 0.56) 38.4%, rgba(122, 109, 241, 0.65) 61.81%, #5370FF 100%));
+
+}
+
+.footlist{
+    text-align: center;
+}
+
+.footlist li{
+    padding-top: 5px;
+    font-size: 15px;
+    font-family: PlaypenSan-XLight;
+    font-weight: bold;
+    color: black;
+}
